@@ -1,0 +1,338 @@
+@charset "UTF-8";
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+/* header */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 80px;
+  max-width: 980px;
+  width: 100%;
+}
+
+.header-wrapper img {
+  margin-left: 20px;
+  width: 179px;
+}
+
+/* インナー要素 */
+.header-inner {
+  width: 100%;
+  height: 100%;
+  max-width: 443px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-menu {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.header-menu li {
+  font-weight: bold;
+  line-height: 1.125;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+/*fv*/
+.fv-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/fv.svg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 551px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.fv-main-title {
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.166;
+  margin-top: 255px;
+  margin-bottom: 12px;
+}
+
+.fv-sub-title {
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.125;
+}
+
+/* My Challenge */
+.my-challenge-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.my-challenge-main-title {
+  color: #333333;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.156;
+  margin: 62px auto 0;
+}
+
+.my-challenge-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.my-challenge-card {
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 336px;
+  margin: 49px auto 0;
+  width: 310px;
+}
+
+.my-challenge-card img {
+  height: 172px;
+  width: 310px;
+}
+
+.my-challenge-card:not(:last-of-type) {
+  margin-right: 25px;
+}
+
+.my-challenge-card-title {
+  color: #333333;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 19px 0 0 20px;
+  width: 270px;
+}
+
+.my-challenge-card-date {
+  color: #333333;
+  line-height: 1.125;
+  margin: auto 0 20px 20px;
+}
+
+.my-challenge-look {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 46px auto 88px;
+  height: 52px;
+  width: 310px;
+}
+
+.my-challenge-look p {
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.16;
+}
+
+/*Just Continue */
+.just-continue-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/footer.svg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 455px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.just-continue-wrapper p {
+  color: #fff;
+}
+
+.just-continue-title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.16;
+  margin-top: 61px;
+}
+
+.just-continue-content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: bold;
+  line-height: 1.75;
+  margin-top: 45px;
+}
+
+.just-continue-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #83032A;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 54px;
+  margin-top: 45px;
+  width: 210px;
+}
+
+.just-continue-button p {
+  font-weight: bold;
+  line-height: 1.116;
+}
+
+/*footer*/
+.footer-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-wrapper p {
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 1.142;
+}
+
+@media screen and (max-width: 1024px) {
+  /* header */
+  .header-wrapper img {
+    margin-left: 10px;
+    width: 110px;
+  }
+  .header-inner {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .header-menu li {
+    font-size: 0.75rem;
+    white-space: normal;
+  }
+  /* fv */
+  .fv-main-title {
+    text-align: center;
+    width: 200px;
+  }
+  /* My Challenge */
+  .my-challenge-card-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .my-challenge-card-title {
+    word-break: break-all;
+    margin: 19px 20px 0;
+    width: auto;
+  }
+  .my-challenge-card:not(:last-of-type) {
+    margin-right: auto;
+  }
+  /* Just Continue */
+  .just-continue-content {
+    font-size: 0.875rem;
+  }
+  /* footer */
+  .footer-wrapper p {
+    font-size: 0.75rem;
+    font-weight: normal;
+  }
+}
+/*# sourceMappingURL=style.css.map */
